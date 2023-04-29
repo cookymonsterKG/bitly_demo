@@ -11,7 +11,6 @@ class TestClicks(unittest.TestCase):
         Test if the read_encodes_csv function correctly reads and parses the CSV data.
         '''
         with patch('builtins.open', return_value=StringIO('long_url,domain,hash\nhttps://google.com/,bit.ly,31Tt55y\n')) as mock_file:
-            print(mock_file)
             encodes = read_encodes_csv('mock_file')
             expected = {'http://bit.ly/31Tt55y': 'https://google.com/'}
             self.assertDictEqual(encodes, expected)
