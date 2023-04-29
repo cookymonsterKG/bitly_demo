@@ -4,12 +4,14 @@ This repository contains a Python 3 solution to the Bitly Backend Engineer codin
 
 ## Dependencies
 
-This project uses Python 3 and does not require any external dependencies. All the libraries used in the solution are part of the Python Standard Library. The following built-in libraries are used:
+This project uses Python 3.11 and does not require any external dependencies. All the libraries used in the solution are part of the Python Standard Library. The following built-in libraries are used:
 
 - `csv`
 - `json`
 - `collections`
 - `datetime`
+
+Make sure that your Python version is `3.11` or above
 
 ## Running the Application
 
