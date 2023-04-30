@@ -13,6 +13,29 @@ This project uses Python 3.11 and does not require any external dependencies. Al
 
 Make sure that your Python version is `3.11` or above
 
+## Docker Alternative
+If you have Docker installed on your host machine, you can use the `Dockerfile` provided in this repository to build and run the application in a Docker container. To do so, follow these steps:
+
+1. Make sure that the Docker daemon is running on your host machine.
+
+2. Open a terminal window and navigate to the repository directory.
+
+3. Build a new Docker image from the `Dockerfile` by running the following command:
+
+   ```
+   docker build -t bitly_demo .
+   ```
+
+   This will create a new Docker image with the name `bitly_demo` based on the instructions in the `Dockerfile`.
+
+4. Run the Docker container by executing the following command:
+
+   ```
+   docker run -it --rm bitly_demo
+   ```
+
+   This will start a new Docker container from the `bitly_demo` image and run the application inside the container.
+
 ## Running the Application
 
 To run the script, make sure you have Python 3 installed on your system. Then, run the script with the following command:
