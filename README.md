@@ -8,7 +8,7 @@ This project uses Python 3.11 and does not require any external dependencies. Al
 
 - `csv`
 - `json`
-- `collections`
+- `typing`
 - `datetime`
 
 Make sure that your Python version is `3.11` or above
